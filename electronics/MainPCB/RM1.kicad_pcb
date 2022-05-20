@@ -1326,7 +1326,7 @@
 
   (footprint "LED_SMD:LED_1206_3216Metric" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 00000000-0000-0000-0000-000060ad8b8e)
-    (at 67.765 69.01)
+    (at 69.57 68.72)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Sheetfile" "RM1.kicad_sch")
@@ -1414,7 +1414,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 00000000-0000-0000-0000-000060ad8d5c)
-    (at 73.6075 69.01)
+    (at 74.3075 71.2)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "RM1.kicad_sch")
@@ -2003,17 +2003,17 @@
       00000000-0000-0000-0000-000060a7de18
     )
   )
+  (group "" (id 4d3fc5d5-c848-44a8-bc55-1bd5917979f2)
+    (members
+      00000000-0000-0000-0000-000060ad8b8e
+      00000000-0000-0000-0000-000060ad8d5c
+    )
+  )
   (group "" (id 57b01d0f-84b1-4988-8f8b-32f5c4b93a5f)
     (members
       00000000-0000-0000-0000-000060a7ddc4
       00000000-0000-0000-0000-000060a7de27
       00000000-0000-0000-0000-000060ac6f07
-    )
-  )
-  (group "" (id bc05f071-bbf3-43e5-b1f5-9627021724bf)
-    (members
-      00000000-0000-0000-0000-000060ad8b8e
-      00000000-0000-0000-0000-000060ad8d5c
     )
   )
   (group "" (id ea91e57d-a40b-43b5-b37a-e1118f9ee3eb)
