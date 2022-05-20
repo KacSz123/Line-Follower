@@ -1,0 +1,442 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Sensor_Proximity:CNY70 U5
+U 1 1 60992863
+P 3375 2450
+F 0 "U5" H 3375 2767 50  0000 C CNN
+F 1 "CNY70" H 3375 2676 50  0000 C CNN
+F 2 "OptoDevice:Vishay_CNY70" H 3375 2250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/83751/cny70.pdf" H 3375 2550 50  0001 C CNN
+	1    3375 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 609A9C02
+P 2600 5125
+F 0 "R5" V 2807 5125 50  0000 C CNN
+F 1 "200" V 2716 5125 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2530 5125 50  0001 C CNN
+F 3 "~" H 2600 5125 50  0001 C CNN
+	1    2600 5125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 609A9385
+P 2750 3175
+F 0 "R3" V 2957 3175 50  0000 C CNN
+F 1 "200" V 2866 3175 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2680 3175 50  0001 C CNN
+F 3 "~" H 2750 3175 50  0001 C CNN
+	1    2750 3175
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Sensor_Proximity:CNY70 U2
+U 1 1 6098FFBB
+P 3300 5225
+F 0 "U2" H 3300 5542 50  0000 C CNN
+F 1 "CNY70" H 3300 5451 50  0000 C CNN
+F 2 "OptoDevice:Vishay_CNY70" H 3300 5025 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/83751/cny70.pdf" H 3300 5325 50  0001 C CNN
+	1    3300 5225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Proximity:CNY70 U6
+U 1 1 6098D61A
+P 3375 3275
+F 0 "U6" H 3375 3592 50  0000 C CNN
+F 1 "CNY70" H 3375 3501 50  0000 C CNN
+F 2 "OptoDevice:Vishay_CNY70" H 3375 3075 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/83751/cny70.pdf" H 3375 3375 50  0001 C CNN
+	1    3375 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Proximity:CNY70 U3
+U 1 1 6099285D
+P 3325 1725
+F 0 "U3" H 3325 2042 50  0000 C CNN
+F 1 "CNY70" H 3325 1951 50  0000 C CNN
+F 2 "OptoDevice:Vishay_CNY70" H 3325 1525 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/83751/cny70.pdf" H 3325 1825 50  0001 C CNN
+	1    3325 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 609A5297
+P 2600 1625
+F 0 "R1" V 2807 1625 50  0000 C CNN
+F 1 "200" V 2716 1625 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2530 1625 50  0001 C CNN
+F 3 "~" H 2600 1625 50  0001 C CNN
+	1    2600 1625
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 1625 3025 1625
+Wire Wire Line
+	2800 2350 3075 2350
+Wire Wire Line
+	2900 3175 3075 3175
+Wire Wire Line
+	2750 5125 3000 5125
+$Comp
+L Device:R R7
+U 1 1 609BAC53
+P 3900 1475
+F 0 "R7" V 4107 1475 50  0000 C CNN
+F 1 "10k" V 4016 1475 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3830 1475 50  0001 C CNN
+F 3 "~" H 3900 1475 50  0001 C CNN
+	1    3900 1475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3025 1825 3025 1975
+Wire Wire Line
+	3025 1975 3625 1975
+Wire Wire Line
+	3625 1825 3625 1975
+Wire Wire Line
+	3075 2550 3075 2700
+Wire Wire Line
+	3075 3375 3075 3525
+Wire Wire Line
+	3075 3525 3675 3525
+Wire Wire Line
+	3675 3375 3675 3525
+Wire Wire Line
+	3000 5325 3000 5475
+Wire Wire Line
+	3000 5475 3600 5475
+Wire Wire Line
+	3600 5325 3600 5475
+Wire Wire Line
+	3625 1625 3900 1625
+Connection ~ 3900 1625
+Wire Wire Line
+	3550 4400 3550 4550
+Wire Wire Line
+	2950 4550 3550 4550
+Wire Wire Line
+	2950 4400 2950 4550
+Wire Wire Line
+	2725 4200 2950 4200
+$Comp
+L Device:R R4
+U 1 1 609A9676
+P 2575 4200
+F 0 "R4" H 2782 4200 50  0000 C CNN
+F 1 "200" V 2691 4200 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2505 4200 50  0001 C CNN
+F 3 "~" H 2575 4200 50  0001 C CNN
+	1    2575 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Sensor_Proximity:CNY70 U1
+U 1 1 6098E07E
+P 3250 4300
+F 0 "U1" H 3250 4617 50  0000 C CNN
+F 1 "CNY70" H 3250 4526 50  0000 C CNN
+F 2 "OptoDevice:Vishay_CNY70" H 3250 4100 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/83751/cny70.pdf" H 3250 4400 50  0001 C CNN
+	1    3250 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3675 2350 3950 2350
+Wire Wire Line
+	3675 3175 3975 3175
+$Comp
+L Device:R R9
+U 1 1 60A1824C
+P 3975 3025
+F 0 "R9" V 4182 3025 50  0000 C CNN
+F 1 "10k" V 4091 3025 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3905 3025 50  0001 C CNN
+F 3 "~" H 3975 3025 50  0001 C CNN
+	1    3975 3025
+	1    0    0    -1  
+$EndComp
+Connection ~ 3975 3175
+$Comp
+L Device:R R8
+U 1 1 60A191F8
+P 3950 2200
+F 0 "R8" V 4157 2200 50  0000 C CNN
+F 1 "10k" V 4066 2200 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3880 2200 50  0001 C CNN
+F 3 "~" H 3950 2200 50  0001 C CNN
+	1    3950 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 2350
+Wire Wire Line
+	3675 2550 3675 2700
+Wire Wire Line
+	3075 2700 3675 2700
+$Comp
+L power:GND #PWR0102
+U 1 1 60A41A8A
+P 3675 2700
+F 0 "#PWR0102" H 3675 2450 50  0001 C CNN
+F 1 "GND" H 3680 2527 50  0000 C CNN
+F 2 "" H 3675 2700 50  0001 C CNN
+F 3 "" H 3675 2700 50  0001 C CNN
+	1    3675 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 60A42CEE
+P 3625 1975
+F 0 "#PWR0103" H 3625 1725 50  0001 C CNN
+F 1 "GND" H 3630 1802 50  0000 C CNN
+F 2 "" H 3625 1975 50  0001 C CNN
+F 3 "" H 3625 1975 50  0001 C CNN
+	1    3625 1975
+	1    0    0    -1  
+$EndComp
+Connection ~ 3675 2700
+$Comp
+L power:GND #PWR0104
+U 1 1 60A49DFC
+P 3675 3525
+F 0 "#PWR0104" H 3675 3275 50  0001 C CNN
+F 1 "GND" H 3680 3352 50  0000 C CNN
+F 2 "" H 3675 3525 50  0001 C CNN
+F 3 "" H 3675 3525 50  0001 C CNN
+	1    3675 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 60A4A6F8
+P 3550 4550
+F 0 "#PWR0105" H 3550 4300 50  0001 C CNN
+F 1 "GND" H 3555 4377 50  0000 C CNN
+F 2 "" H 3550 4550 50  0001 C CNN
+F 3 "" H 3550 4550 50  0001 C CNN
+	1    3550 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 60A4B77F
+P 3600 5475
+F 0 "#PWR0106" H 3600 5225 50  0001 C CNN
+F 1 "GND" H 3605 5302 50  0000 C CNN
+F 2 "" H 3600 5475 50  0001 C CNN
+F 3 "" H 3600 5475 50  0001 C CNN
+	1    3600 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 4200 3875 4200
+Connection ~ 3875 4200
+$Comp
+L Device:R R10
+U 1 1 60A17460
+P 3875 4050
+F 0 "R10" V 4082 4050 50  0000 C CNN
+F 1 "10k" V 3991 4050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3805 4050 50  0001 C CNN
+F 3 "~" H 3875 4050 50  0001 C CNN
+	1    3875 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 5125 3925 5125
+Connection ~ 3925 5125
+$Comp
+L Device:R R11
+U 1 1 60A15F1C
+P 3925 4975
+F 0 "R11" V 4132 4975 50  0000 C CNN
+F 1 "10k" V 4041 4975 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3855 4975 50  0001 C CNN
+F 3 "~" H 3925 4975 50  0001 C CNN
+	1    3925 4975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 1625 5825 3500
+Wire Wire Line
+	5825 3500 6350 3500
+Wire Wire Line
+	3900 1625 5825 1625
+Wire Wire Line
+	5350 2350 5350 3600
+Wire Wire Line
+	5350 3600 6350 3600
+Wire Wire Line
+	3950 2350 5350 2350
+Wire Wire Line
+	4875 3175 4875 3700
+Wire Wire Line
+	4875 3700 6350 3700
+Wire Wire Line
+	3975 3175 4875 3175
+Wire Wire Line
+	5000 4200 5000 3800
+Wire Wire Line
+	5000 3800 6350 3800
+Wire Wire Line
+	3875 4200 5000 4200
+Wire Wire Line
+	5175 5125 5175 3900
+Wire Wire Line
+	5175 3900 6350 3900
+Wire Wire Line
+	3925 5125 5175 5125
+$Comp
+L power:GND #PWR0121
+U 1 1 60A77BD8
+P 6225 4475
+F 0 "#PWR0121" H 6225 4225 50  0001 C CNN
+F 1 "GND" H 6230 4302 50  0000 C CNN
+F 2 "" H 6225 4475 50  0001 C CNN
+F 3 "" H 6225 4475 50  0001 C CNN
+	1    6225 4475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6225 4000 6350 4000
+Text GLabel 2175 1625 0    50   Input ~ 0
+5V
+$Comp
+L Device:R R2
+U 1 1 609A9100
+P 2650 2350
+F 0 "R2" V 2857 2350 50  0000 C CNN
+F 1 "200" V 2766 2350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2580 2350 50  0001 C CNN
+F 3 "~" H 2650 2350 50  0001 C CNN
+	1    2650 2350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2250 2350 0    50   Input ~ 0
+5V
+Text GLabel 2400 3175 0    50   Input ~ 0
+5V
+Text GLabel 2225 4200 0    50   Input ~ 0
+5V
+Text GLabel 2225 5125 0    50   Input ~ 0
+5V
+Text GLabel 3900 1225 1    50   Input ~ 0
+5V
+Text GLabel 3950 1950 1    50   Input ~ 0
+5V
+Text GLabel 3975 2800 1    50   Input ~ 0
+5V
+Text GLabel 3875 3800 1    50   Input ~ 0
+5V
+Text GLabel 3925 4700 1    50   Input ~ 0
+5V
+Text GLabel 5675 4475 3    50   Input ~ 0
+5V
+Wire Wire Line
+	2175 1625 2450 1625
+Wire Wire Line
+	2250 2350 2500 2350
+Wire Wire Line
+	2400 3175 2600 3175
+Wire Wire Line
+	2225 4200 2425 4200
+Wire Wire Line
+	2225 5125 2450 5125
+Wire Wire Line
+	3900 1225 3900 1325
+Wire Wire Line
+	3950 2050 3950 1950
+Wire Wire Line
+	3975 2875 3975 2800
+Wire Wire Line
+	3875 3900 3875 3800
+Wire Wire Line
+	3925 4700 3925 4825
+Wire Wire Line
+	5675 4475 5675 4100
+Wire Wire Line
+	5675 4100 6350 4100
+Connection ~ 3550 4550
+Connection ~ 3600 5475
+Connection ~ 3625 1975
+Connection ~ 3675 3525
+$Comp
+L Connector_Generic:Conn_01x07 J1
+U 1 1 60AC7EFA
+P 6550 3800
+F 0 "J1" H 6630 3842 50  0000 L CNN
+F 1 "Conn_01x07" H 6630 3751 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" H 6550 3800 50  0001 C CNN
+F 3 "~" H 6550 3800 50  0001 C CNN
+	1    6550 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6225 4000 6225 4475
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60ACDB88
+P 8250 1675
+F 0 "H4" H 8350 1721 50  0000 L CNN
+F 1 "MountingHole" H 8350 1630 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2mm" H 8250 1675 50  0001 C CNN
+F 3 "~" H 8250 1675 50  0001 C CNN
+	1    8250 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60ACE34E
+P 8125 2400
+F 0 "H3" H 8225 2446 50  0000 L CNN
+F 1 "MountingHole" H 8225 2355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2mm" H 8125 2400 50  0001 C CNN
+F 3 "~" H 8125 2400 50  0001 C CNN
+	1    8125 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60ACEFEB
+P 8100 3525
+F 0 "H1" H 8200 3571 50  0000 L CNN
+F 1 "MountingHole" H 8200 3480 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2mm" H 8100 3525 50  0001 C CNN
+F 3 "~" H 8100 3525 50  0001 C CNN
+	1    8100 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60ACFC2B
+P 8100 4425
+F 0 "H2" H 8200 4471 50  0000 L CNN
+F 1 "MountingHole" H 8200 4380 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2mm" H 8100 4425 50  0001 C CNN
+F 3 "~" H 8100 4425 50  0001 C CNN
+	1    8100 4425
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
